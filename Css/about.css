@@ -36,6 +36,8 @@ div.sobre {
   width: 800px;
   font-weight: 600;
   font-size: 16px;
+  text-align: left;
+
 }
 
 .sobre > span {

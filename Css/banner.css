@@ -12,6 +12,7 @@ div.banner {
 }
 
 div.banner-2 {
+  clear: both;
   width: 100%;
   height: 600px;
   background-image: url('../Image/notbook.jpg');

@@ -5,7 +5,6 @@
 
 
 /*POST 1*/
-
 .post-1 {
   width: 33%;
   height: 700px;
@@ -21,6 +20,8 @@
 
 .post-1 .img {
   background-image: url('../Image/img1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
   width: 100%;
   height: 700px;
@@ -31,7 +32,7 @@
   font-size: 24px;
   width: 0px;
   height: 700px;
-  background: rgba(0, 232, 154, 0.71);
+  background: rgba(0,206,209, 0.71);
   position: absolute;
   top: 0;
   display: flex;
@@ -42,13 +43,122 @@
 }
 
 .post-s h2 {
-  font-size: 24px;
+  color: #fff;
+  font-size: 48px;
   font-weight: 600;
   margin-right: 10px;
 }
 
 .post-s h3 {
+  color: #fff;
   padding: 10px;
-    border: 4px solid #fff;
-    font-weight: 300;
+  border: 4px solid #fff;
+  font-weight: 300;
+}
+
+/* POST 2 */
+
+.post-2 {
+  width: 33%;
+  height: 700px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.post-2:hover .post-s {
+  width: 100%;
+}
+
+
+.post-2 .img {
+  background-image: url('../Image/img2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+
+.post-2 > .post-s {
+  text-align: center;
+  font-size: 24px;
+  width: 0px;
+  height: 700px;
+  background: rgba(255,140,0, 0.71);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-s h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.post-s h3 {
+  color: #fff;
+  padding: 10px;
+  border: 4px solid #fff;
+  font-weight: 300;
+}
+
+
+/* POST 3 */
+
+.post-3 {
+  width: 33%;
+  height: 700px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.post-3:hover .post-s {
+  width: 100%;
+}
+
+
+.post-3 .img {
+  background-image: url('../Image/img3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+
+.post-3 > .post-s {
+  text-align: center;
+  font-size: 24px;
+  width: 0px;
+  height: 700px;
+  background: rgba(178,34,34, 0.71);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.post-s h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.post-s h3 {
+  color: #fff;
+  padding: 10px;
+  border: 4px solid #fff;
+  font-weight: 300;
 }

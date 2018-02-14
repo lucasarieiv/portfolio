@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+footer {
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+
+footer > a {
+  color: #A9A9A9;
+  transition: 0.2s;
+  margin: 5px;
+}
+
+footer > a:visited {
+  color: #A9A9A9;
+}
+
+footer > .face:hover {
+  color: #4267b2;
+}
+
+footer > .git:hover {
+  color: #24292e;
+}
+
+footer p {
+  color: #606060;
+  margin-top: 5px;
+  font-family: Courier, "New Courier", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}

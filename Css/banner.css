@@ -1,15 +1,78 @@
 @charset "UTF-8";
 
-
 div.banner {
-  margin-top: 20px;
   width: 100%;
-  height: 820px;
-  background-image: url('../Image/webdesigner.jpg');
+  height: 700px;
+  background-image: url('../Image/webdesigner-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:fixed;
 }
+
+div#section-welcome {
+  /* background-color: blue; */
+  margin: 0 auto;
+  position: relative;
+  top: 180px;
+  width: 900px;
+  height: auto;
+}
+
+div#section-welcome h1 {
+  /* background-color: green; */
+  font-size: 7.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+div#btn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+div#btn > a.btn-hire {
+  border-radius: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-color: #d09d02;
+  display: inline-block;
+  width: 240px;
+  padding: 18px 0px;
+  border: 2px solid transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* div#btn > a.btn-hire:hover {
+  background-color: transparent;
+  border: 2px solid #f7c017;
+  color: #f7c017;
+  font-weight: 400;
+} */
+
+div#btn > a.btn-about {
+  border-radius: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+  width: 240px;
+  padding: 18px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 
 div.banner-2 {
   clear: both;

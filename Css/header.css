@@ -2,54 +2,47 @@
 
 header {
   text-align: center;
-  height: 150px;
   /*background-color: #0BD478;*/
 }
 
-header h1 {
-  display: inline;
-  position: relative;
-  top: 20px;
-  color: #E85E0C;
-  font-size: 48px;
-}
-
-header h1 > span {
-  font-weight: 300;
-  color: #FF8B0D;
-  border-top: 4px solid #E85E0C;
-}
-
 nav {
-  margin-top: 50px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  height: auto;
 }
 
 nav ul {
-  margin: 0px;
-  padding: 0px 0px 5px 30px;
+  position: relative;
+  margin: 20px auto;
+  height: auto;
 }
 
 nav li {
+  /* background-color: blue; */
+  list-style: none;
   display: inline;
   margin-right: 40px;
-  color: #fff;
 }
 
 nav li a {
   text-decoration: none;
-  color: #A4A4A4;
+  font-size: 1.5em;
+  color: #fff;
   font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: 0.3s;
 }
 
 nav li a:visited {
-  color: #818181;
+  color: #fff;
 }
 
-nav li a:hover, nav li a.current {
-  color: #FF8B0D;
-}
 
 nav li a:hover {
   padding-bottom: 5px;
-  border-bottom: 3px solid #FF8B0D;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
 }
